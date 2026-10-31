@@ -81,7 +81,7 @@ Shared State: DynamoDB WorkflowStateTable (with optimistic locking)
 
 ## Setup
 
-This is the unfinished student starter: complete the TODOs in `src/agent_orchestrator.py`. The CLI configuration and support modules are provided infrastructure, not exercise solutions. Runtime deployment and runtime configuration updates use AgentCore CLI; application service calls still use the AWS SDK.
+The multi-agent orchestrator in `src/agent_orchestrator.py` is fully implemented. The CLI configuration and support modules came with the Udacity course starter. Runtime deployment and runtime configuration updates use AgentCore CLI; application service calls still use the AWS SDK.
 
 Use the tested CLI version **0.30.0** shown above. The supplied CDK compatibility fix keeps HTTP explicit in the deployed runtime metadata.
 
